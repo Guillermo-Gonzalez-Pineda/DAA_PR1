@@ -17,7 +17,7 @@ void Matrix::resize(int new_rows, int new_cols) {
 void Matrix::print() const {
   for (const auto& row : matrix_) {
     for (int value : row) {
-      std::cout << value << " ";
+      std::cout << value << "\t";
     }
     std::cout << "\n";
   }

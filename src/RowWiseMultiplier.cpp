@@ -11,7 +11,7 @@ Matrix RowWiseMultiplier::multiply(const Matrix& matrix_a, const Matrix& matrix_
     for (int j = 0; j < num_columnas_b; j++) {
       int suma = 0;
       for (int k = 0; k < num_columnas_a; k++) {
-        suma += matrix_a.getValue(i, k) * matrix_b.getValue(j, k);
+        suma += matrix_a.getValue(i, k) * matrix_b.getValue(k, j);
       }
       result.setValue(i, j, suma);
     }

@@ -25,9 +25,9 @@ class Matrix {
     void print(std::ofstream& archivo) const;
 
   private:
-    std::vector<std::vector<int>> matrix_;
     int num_colums_;
     int num_rows_; 
+    std::vector<std::vector<int>> matrix_;
 };
 
 

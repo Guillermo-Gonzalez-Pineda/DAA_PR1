@@ -17,10 +17,6 @@ Matrix.hpp
 /home/guillermo/DAA/PR1-Complejidad-Computacional/include/Matrix.hpp
 include.hpp
 /home/guillermo/DAA/PR1-Complejidad-Computacional/include/include.hpp
-ctime
--
-cstdlib
--
 
 /home/guillermo/DAA/PR1-Complejidad-Computacional/include/RowWiseMultiplier.hpp
 IMatrixMultiplier.hpp
@@ -42,11 +38,13 @@ chrono
 fstream
 -
 
-/home/guillermo/DAA/PR1-Complejidad-Computacional/src/ColumnWiseMultiplier.cpp
-../include/ColumnWiseMultiplier.hpp
-/home/guillermo/DAA/PR1-Complejidad-Computacional/include/ColumnWiseMultiplier.hpp
-
-/home/guillermo/DAA/PR1-Complejidad-Computacional/src/RowWiseMultiplier.cpp
+/home/guillermo/DAA/PR1-Complejidad-Computacional/src/main.cpp
+../include/Matrix.hpp
+/home/guillermo/DAA/PR1-Complejidad-Computacional/include/Matrix.hpp
+../include/include.hpp
+/home/guillermo/DAA/PR1-Complejidad-Computacional/include/include.hpp
 ../include/RowWiseMultiplier.hpp
 /home/guillermo/DAA/PR1-Complejidad-Computacional/include/RowWiseMultiplier.hpp
+../include/ColumnWiseMultiplier.hpp
+/home/guillermo/DAA/PR1-Complejidad-Computacional/include/ColumnWiseMultiplier.hpp
 
